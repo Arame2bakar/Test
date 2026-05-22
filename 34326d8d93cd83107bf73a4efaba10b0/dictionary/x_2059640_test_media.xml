@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6f9465059301c3107bf73a4efaba1001" label="Media" max_length="40" name="x_2059640_test_media" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6f9465059301c3107bf73a4efaba1001" label="Media" max_length="40" name="x_2059640_test_media" type="collection">
+        <element label="Date d'expiration" mandatory="true" max_length="255" name="date_d_expiration" type="glide_date"/>
+    </element>
 </database>
